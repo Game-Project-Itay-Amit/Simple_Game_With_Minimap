@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movment : MonoBehaviour
 {
     [SerializeField]
-    float stepSize = 20f;
+    float stepSize = 1f;
 
     float leftWall = -400, rightWall = 1280, upperWall = 660, lowerWall = -280;
     // Start is called before the first frame update
